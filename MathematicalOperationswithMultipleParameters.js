@@ -3,7 +3,7 @@ function calculateTotalCost(price, quantity, taxRate){
         console.log("Invalid input");
     } else{
 
-    totalCost = (price * quantity) * (1 + taxRate);
+    let totalCost = (price * quantity) * (1 + taxRate);
     console.log(`Your total cost is $${totalCost}`);
 }
 }
